@@ -5,7 +5,7 @@ const Todos = (props) => {
     <div className="cointainer" >
       <h3>Todos List</h3>
      {/* { props.todos} */}
-     <TodoItem todo={props.todo}/>
+     <TodoItem todo = {props.todos}/>
      
     </div>
   )
