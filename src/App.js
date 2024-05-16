@@ -30,7 +30,7 @@ function App() {
   return (
   
     <>
-    <Header  title="My Todos List" searchBar={false}/>
+    <Header  title="My Todos List" searchBar={true}/>
     <Todos todos={todos} />
     <Footer />
     <TodoItem/>
